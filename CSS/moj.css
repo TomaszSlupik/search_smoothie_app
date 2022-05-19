@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.one {
+    z-index: 10;
+}
+.box {
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+
+.photo {
+    height: 200px;
+    width: 100%;
+}
+
+.form {
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.btn1 {
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 105px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+
+ul {
+    color: white;
+    cursor: pointer;
+}
+
+.fa-solid {
+    color: white;
+}
+
+.photoTwo {
+    margin-left: 900px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black;
+    width: 270px;
+    height: 190px;
+}
+
+.back {
+    margin-left: 40px;
+    font-size: 36px;
+}
